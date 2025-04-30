@@ -8,7 +8,7 @@ public class BalanceEnquiry
 		this.balance = balance;
 	}
 	
-	//balance
+	//check balance feature
 	public double checkBalance() {
 		return this.balance;
 	}
