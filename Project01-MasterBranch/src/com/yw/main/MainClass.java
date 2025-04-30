@@ -1,10 +1,14 @@
 package com.yw.main;
 
+import com.yw.features.UpiPayment;
+
 public class MainClass 
 {
 	public static void main(String[] args) 
 	{
-		//This is Main Class
+		UpiPayment upi = new UpiPayment();
+		
+		System.out.println(upi.upiPayment(987654321, 5000.55));
 	}
 
 }
