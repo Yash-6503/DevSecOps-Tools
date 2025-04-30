@@ -2,7 +2,6 @@ package com.yw.Balance;
 
 public class BalanceEnquiry 
 {
-	//Task1 implement new check balance feature
 	private double balance;
 	
 	public BalanceEnquiry(double balance) {
