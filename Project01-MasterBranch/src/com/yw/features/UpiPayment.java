@@ -7,7 +7,7 @@ public class UpiPayment
 		return amount+" transferred from "+fromPhone+" to phone "+toPhone;
 	}
 	
-	//net banking feature
+	//net banking feature version 2.0
 	public String netBanking(long sourceAccNo, long destAccno, double amount) {
 		return amount+" transferred from source Account : "+sourceAccNo+" to Destination Account : "+destAccno;
 	}
