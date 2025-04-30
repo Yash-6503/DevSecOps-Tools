@@ -15,7 +15,6 @@ public class MainClass
 		
 		System.out.println(upi.netBanking(44553322, 88557766, 80000.35));
 		
-		System.out.println("Your Account Balance is : "+balance.checkBalance());
 	}
 
 }
