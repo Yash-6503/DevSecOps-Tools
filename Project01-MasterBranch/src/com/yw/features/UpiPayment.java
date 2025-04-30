@@ -9,6 +9,6 @@ public class UpiPayment
 	
 	//net banking feature
 	public String netBanking(long sourceAccNo, long destAccno, double amount) {
-		return amount+" transferred from "+sourceAccNo+" to "+destAccno;
+		return amount+" transferred from source Account : "+sourceAccNo+" to Destination Account : "+destAccno;
 	}
 }
